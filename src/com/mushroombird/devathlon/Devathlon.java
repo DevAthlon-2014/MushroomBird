@@ -23,12 +23,12 @@ public class Devathlon extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
-		getLogger().info( "Plugin aktiviert!" );
+		getLogger().info("Plugin aktiviert!");
 	}
 	
 	@Override
 	public void onDisable() {
-		getLogger().info( "Plugin deaktiviert!" );
+		getLogger().info("Plugin deaktiviert!");
 	}
 	
 	/**
