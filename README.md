@@ -1,7 +1,4 @@
 Devathlon
 ============
 
-Repository for MushroomBird.
-
-Idee:
-1.
+Bitte löschen!
