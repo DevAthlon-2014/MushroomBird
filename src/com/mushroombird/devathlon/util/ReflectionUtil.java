@@ -34,10 +34,10 @@ public class ReflectionUtil {
 	/**
 	 * Get a Field
 	 */
-	public static Field getField( Class<?> clazz, String name ) {
+	public static Field getField(Class<?> clazz, String name) {
 		try {
 			return clazz.getDeclaredField( name );
-		} catch ( NoSuchFieldException | SecurityException e ) {
+		} catch (NoSuchFieldException | SecurityException e) {
 			Devathlon.getInstance().getLogger().info("Can't get field! @see " + ReflectionUtil.class.getName() + ": Method: getFields");
 		}
 		
