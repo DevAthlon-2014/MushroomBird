@@ -42,7 +42,7 @@ public class Devathlon extends JavaPlugin {
 	/**
 	 * Get Random
 	 * @see java.util.Random
-	 * @return Random
+	 * @return Random engine
 	 */
 	public static Random getRandomEngine() {
 		return random;
